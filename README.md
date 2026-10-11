@@ -108,3 +108,8 @@ This repository holds code, shaders and my own procedural assets only.  **Not in
   start TouchDesigner with your own MCP-enabled `base.tox` on port 9995 and run `build_project.py` to regenerate the project.
 * `datasets/waymo_pb/` contains protobuf Python modules generated from Waymo's Apache-2.0 `.proto` files; regenerate with
   `grpc_tools.protoc` if you prefer.
+
+## Licence
+
+Code and procedural assets: MIT (see LICENSE). Waymo Open Dataset: separate non-commercial Waymo licence, not distributed here.
+
