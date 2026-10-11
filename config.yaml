@@ -1,0 +1,20 @@
+dataset:
+  version: "2.0.1"
+  bucket: gs://waymo_open_dataset_v_2_0_1
+  split: validation
+  context: null            # set to the chosen context name
+paths:
+  raw: data/raw
+  processed: data/processed
+preprocess:
+  max_range_m: 75.0
+  voxel_m: 0.08
+  max_points_per_frame: 131072     # 512 x 256 texture slots
+  returns: [1]
+render:
+  width: 1280                      # non-commercial TouchDesigner cap
+  height: 720
+  fps: 30
+touchdesigner:
+  port: 9995
+  root: /project1/WAYMO_AUTONOMOUS_VISION_4D

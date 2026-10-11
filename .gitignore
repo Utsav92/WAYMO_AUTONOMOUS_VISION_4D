@@ -1,0 +1,25 @@
+# --- Waymo data and anything derived from it: licence is NON-COMMERCIAL, NO REDISTRIBUTION ---
+data/
+output/
+*.parquet
+*.tfrecord
+*.npz
+*.npy
+models/*.pt
+models/*_metrics.json
+# --- third-party TouchDesigner MCP bridge (not mine to redistribute) and TD autosaves ---
+touchdesigner/base.tox
+touchdesigner/base.tox.*
+touchdesigner/modules/
+touchdesigner/*.toe
+touchdesigner/*.toe.*
+touchdesigner/Backup/
+# --- scratch / caches ---
+__pycache__/
+*.pyc
+.pytest_cache/
+.claude-flow/
+assets/patch_*.py
+assets/fix_*.py
+*.bkp*
+Thumbs.db
